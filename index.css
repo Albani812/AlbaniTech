@@ -1,0 +1,391 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+.container{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    background-color: blue;
+    width: 100%;
+    height: 15vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    text-shadow: 2px 2px;
+}
+nav{
+    background-color: blue;
+    height: 250vh;
+    width: 20%;
+    border-top: 4px dotted white;
+    float: left;
+    margin-right: 12px;
+    cursor: default;
+}
+.man{
+    width: 100%;
+    height: 7vh;
+    background-color: darkblue;
+    color: white;
+}
+.f ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 12px;
+}
+.k img{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+
+    
+}
+.man{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.k{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius:none ;
+    border-bottom: 1px solid blue;
+    margin-left: 12px;
+    
+}
+
+.k input{
+    width: 300%;
+    border: none;
+    border-bottom: 3px solid blue;
+    height: 30px;
+    margin-left: 12px;
+    margin-top: 15px;
+}
+.cax{
+    width: 99%;
+    height: 100vh;
+    background-color:white;
+    border-right:5px solid blue ;
+}
+.b{
+    background-color: white;
+    width: 100%;
+    height: 20vh;
+    color: blue;
+    margin-top: 12px;
+    border-top: 5px solid blue;
+    border-bottom: 5px solid blue;
+
+    
+    
+}
+.b b{
+    text-shadow:2px 2px ;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.b h1{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.b a{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+.gax{
+    width: 99%;
+    background-color: white;
+    height: 120vh;
+    margin-top: 20px;
+    border-top: 5px solid blue;
+    border-bottom: 5px solid blue;
+    margin: 30px;
+    border-right: 5px solid blue;
+
+}
+.a{
+    width: 50%;
+    height: 20vh;
+    background-color: white;
+    margin-top: 12px;
+    border-left: 7px solid blue;
+    color: blue;
+    display: flex;
+    
+    
+}
+.d{
+    width: 50%;
+    height: 20vh;
+    background-color: white;
+    margin-top: 12px;
+    border-left: 7px solid blue;
+    display: flex;
+    color: blue;
+    
+
+    
+}
+.e{
+    width: 50%;
+    height: 20vh;
+    background-color:white;
+    margin-top: 12px;
+    border-left: 7px solid blue;
+    display: flex; 
+    color: blue; 
+}
+.j{
+    width: 50%;
+    height: 20vh;
+    background-color:white;
+    margin-top: 12px;
+    border-left: 7px solid blue;
+    display: flex; 
+    color: blue; 
+}
+.h{
+    width: 50%;
+    height: 20vh;
+    background-color:white;
+    margin-top: 12px;
+    border-left: 7px solid blue;
+    display: flex;  
+    color: blue;
+}
+.gax ul{
+    margin-left: 60px;
+}
+.a ul{
+    margin-left: 100px;
+}
+.a{
+    margin-top: 30px;
+    
+}
+.e ul{
+    margin-left:120px ;
+
+}
+.d{
+    margin-bottom: 30px;
+}
+.j ul{
+    margin-left: 120px;
+}
+.h ul{
+    margin-left: 90px;
+}
+nav{
+    color: white;
+}
+ .i ul{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.i b{
+    font-size: 20px;
+}
+.p ul{
+    margin-top: 20px;
+    margin-bottom:30px ;
+
+}
+.p b{margin-top: 30px;
+    font-size: 20px;
+
+}
+.q ul{
+    margin-top: 20px;
+    margin-bottom:30px ;
+
+}
+.q b{
+    margin-top: 30px;
+    font-size: 20px;
+
+
+}
+.o ul{
+    margin-top: 20px;
+    margin-bottom:30px ;
+
+}
+.o b{
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+.o ul li{
+    margin: 8px;
+}
+nav ul li{
+    margin-left: 20px;
+}
+.o ul li{
+    margin-left: 20px;
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 20px;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .man {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .k input {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .f ul a {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    nav {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-right: 0;
+        border-top: none;
+    }
+
+    nav ul li {
+        margin-left: 10px;
+    }
+
+    .cax {
+        width: 100%;
+        height: auto;
+        border-right: none;
+    }
+
+    .b, .a, .d, .e, .j, .h {
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+        border-left: none;
+        text-align: center;
+    }
+
+    .gax {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+        border-right: none;
+    }
+
+    .gax ul, .a ul, .e ul, .j ul, .h ul {
+        margin-left: 20px;
+    }
+
+    .a, .d, .e, .j, .h {
+        display: block;
+        text-align: center;
+    }
+
+    .k img {
+        margin: 10px auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    .man {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .k input {
+        width: 95%;
+    }
+
+    .f ul a {
+        font-size: 16px;
+        margin: 3px;
+    }
+
+    nav {
+        font-size: 14px;
+    }
+
+    nav ul li {
+        margin-left: 5px;
+    }
+
+    .b b {
+        font-size: 18px;
+    }
+
+    .b h1 {
+        font-size: 16px;
+    }
+
+    .b a {
+        font-size: 14px;
+    }
+
+    .gax ul, .a ul, .e ul, .j ul, .h ul {
+        margin-left: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+   
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="s.css">
+    <script src="sweetalert2/dist/sweetalert2.all.min.js"></script>
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="t">
+            <b>DATA BASE OF OUR STUDENTS</b>
+        </div>
+        <div class="max">
+            <div class="ma">
+                <a href="index.html" style="background-color: aliceblue; padding: 5px; border-radius: 10px; height: 2vh;">Go Back</a>
+                <div class="l">
+                    <input type="text" placeholder="search your name...">
+                </div>
+                <div class="m">
+                    <button onclick="search()">search</button>
+                </div>
+            </div>  
+            <div class="p" id="result">  </div>
+        </div>
+    </div>
+    
+</div>
+
+    
+</body>
+<script>
+    function search(){
+        var words = document.querySelector("input").value;
+        const dictionary = {
+            biology: " biology is a study of life.",
+            chemistry: "chemistry is a branch of science that deal with study of matter.",
+            matter: " matter is anything that has mass and occupy space",
+            noun:" noun is a name of everything",
+            physic: " physic is a pure science that deals with study of matter and energy and how its relate with others propeties",
+            pronoun:" pronoun is a noun used instead of a noun",
+            verb:" verb is an action or a doing word",
+            computer:" computer is an electronic machine that accept data process the data and give out full information",
+            monitor:" monitor is an output device that display information",
+            keyboard:" keyboard is an input device used to enter data in a computer",
+            hamza:"hamza mutumun kirki",
+            ismail:" ismail registered ",
+            abdool:" abdool registered",
+        }
+        if(words == " "){
+            document.getElementById("result").innerText= "please enter search student";
+        }else if(!dictionary[words]){
+            document.getElementById("result").innerHTML =words + " sorry does not exit in the this website";
+        }else{
+            document.getElementById("result").innerHTML= dictionary[words];
+        }
+    }
+    
+    swal.fire("Good", " Student Registered", "success")
+
+</script>  
+</html>

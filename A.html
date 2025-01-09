@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="sweetalert2/dist/sweetalert2.all.min.js"></script>
+
+</head>
+<style>
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    .container{
+        background-color: white;
+        width: 100%;
+        height: 100vh 
+
+    }
+    header{
+        background-color: darkblue;
+        width: 100%;
+        height: 8vh;
+    }
+    header b{
+        color: white;
+        font-size: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .nax{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .nax button{
+        background-color:darkblue;
+        color: white;
+        width: 70px;
+        height: 40px;
+
+    }
+    button a:hover{
+        background-color: aqua;
+        color: white;
+       
+    }
+    a{
+        color: white;
+        
+    }
+    .max{
+        width: 70%;
+        height: 170vh;
+        background-color:darkblue;
+        color: white;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .A h1{
+        font-size: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+     h1{
+        margin-top: 20px;
+    }
+    .B{
+
+        margin: 30px;
+        margin-top: 20px;
+        font-size: 25px; 
+
+    }
+    .c{
+        margin: 60px;
+        font-size: 25px; 
+        margin-right: 20px;
+        
+
+    }
+    .c ul li{
+        margin: 20px;
+        border-bottom: 1px solid white;
+        
+    }
+    .B ul li{
+        margin: 15px;
+    }
+    .D ul li{
+        margin: 15px;
+    }
+    .D{
+        margin-top: 20px;
+        margin-left: 25px;
+        font-size: 25px;
+
+    }
+    .E{
+        margin-top: 30px;
+        margin-left: 25px;
+        font-size: 25px;
+       
+    }
+    .E ul li{
+        margin: 15px;
+        margin-right: 30px;
+
+    }
+    .y img{
+        width:30%;
+        height: 50vh;
+        border-radius: 20px;
+    
+
+    }
+    .y{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 12px;
+    }
+    .z img{
+        width: 15%;
+        height: 25vh;
+        border-radius: 10px;
+        margin:20px;
+    
+
+    }
+    .z{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 12px;
+    }
+    @media screen and (max-width: 768px) {
+    header {
+        font-size: 20px;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .man {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .k input {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .f ul a {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    nav {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-right: 0;
+        border-top: none;
+    }
+
+    nav ul li {
+        margin-left: 10px;
+    }
+
+    .cax {
+        width: 100%;
+        height: auto;
+        border-right: none;
+    }
+
+    .b, .a, .d, .e, .j, .h {
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+        border-left: none;
+        text-align: center;
+    }
+
+    .gax {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+        border-right: none;
+    }
+
+    .gax ul, .a ul, .e ul, .j ul, .h ul {
+        margin-left: 20px;
+    }
+
+    .a, .d, .e, .j, .h {
+        display: block;
+        text-align: center;
+    }
+
+    .k img {
+        margin: 10px auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    .man {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .k input {
+        width: 95%;
+    }
+
+    .f ul a {
+        font-size: 16px;
+        margin: 3px;
+    }
+
+    nav {
+        font-size: 14px;
+    }
+
+    nav ul li {
+        margin-left: 5px;
+    }
+
+    .b b {
+        font-size: 18px;
+    }
+
+    .b h1 {
+        font-size: 16px;
+    }
+
+    .b a {
+        font-size: 14px;
+    }
+
+    .gax ul, .a ul, .e ul, .j ul, .h ul {
+        margin-left: 10px;
+    }
+}
+
+
+
+</style>
+<body>
+    <div class="container">
+        <header>
+            <b>About AlbaniTech.com</b>
+        </header>
+        <div class="nas">
+            <div class="y"><img src="B.jpg" alt="">    
+            </div>
+            <div class="z">
+                <img src="C.jpg" alt="">
+                <img src="F.jpg" alt="">
+                <img src="D.jpg" alt="">
+            </div>
+            
+        
+        <div class="nax">
+            <button style="cursor: progress;"><a href="index.html" style="cursor: progress;">Home</a></button>
+            <button style="cursor: progress;"><a href="s.html" class="button" style="cursor: progress;">Next</a></button>
+            
+        </div>
+        <div class="max">
+            <div class="A">
+               <h1> The Largest Web developer Site On The Internet 3 Billion Pages displayed Each year
+                60 Million Visitors Every Month.</h1>
+                <div class="B">
+                    <ul>
+                        <li>
+                            What Is AlbaniTech.com ?
+                        </li>
+                        <li>
+                            AlbaniTech.com is an Institute of web developers, covering  all  the aspect of web development.
+                            this Institute stand to train the under graduate and graduate some Programming skills,
+                            so that each and every computer science Students can creat atleast his or her on web site.
+                            this is our main goal to produce a product with a standard skills for Programming.
+                            in our country nigeria you can see a graduate from computer science,
+                            but he cannot design a simple web site by using any of this skill : HTML, CSS, JavaScript, BOOSTSTRAP, PYTHON ,C++ ,JAVA, PHP, AI etc.
+                            that's why AlbaniTech.com come up with good idea and oppoturnity to change the atmosphere of computer science Student in nigeria,
+                            so that each and every Student will have a skills and certificate,
+                            as our motto implies(Skills Is  Rather Than Just Degrees).  
+
+                       
+                    </ul>
+                </div>
+                <div class="c">
+                    <ul>
+                        <li>
+                            HTML Tutorial
+                        </li>
+                        <li>
+                            CSS Tutorail
+
+                        </li>
+                        <li>
+                            JavaScript Tutorial
+
+                        </li>
+                        <li>
+                            phython Tutorial
+
+                        </li>
+                        <li>
+                            C++ Tutorial
+
+                        </li>
+                        <li>
+                            Java Tutorial
+
+                        </li>
+                    
+                        <li>
+                            XML Tutorial
+
+                        </li>
+                    
+                        <li>
+                            React Tutorial
+
+                        </li>
+                    
+                        <li>
+                            Jquery Tutorial
+
+                        </li>
+                        <li>
+                            Boostrap Tutorial
+
+                        </li>
+                        <li>
+                            C# Tutorial
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="D"><b>Easy Learning</b>
+                    <ul>
+                        <li>
+                            AlbaniTech.com has focus on simplicity.
+                        </li>
+                        <li>
+                            AlbaniTech.com practice easy learning.
+                        </li>
+                        <li>
+                            AlbaniTech.com uses simple code examples and simple illustrations of how to use it.
+                        </li>
+                        
+                        <li>
+                            AlbaniTech.com tutorials start from basic level and move all the way up to professional references.
+                        </li>
+                    </ul>
+                </div>
+                <div class="E"><b>You Can Help</b>
+                    <ul>
+                        <li>
+                            Many people work very hard to ensure w3schools remains useful, updated, and interesting.
+
+If you find an error, or a broken link, please tell us about it.
+
+Use the link "REPORT ERROR" at the bottom of each page.
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+       
+    </div>
+    <script>
+        swal.fire("Good", "Welcome to AbaniTech.com", "info")
+</script>
+    
+</body>
+</html>
